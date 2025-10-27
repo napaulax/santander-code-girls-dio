@@ -1,0 +1,43 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="S3-Lambda-Detailed" id="mn0-IJQ7k0P7nrPpNySd">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2zgin8cUrqoFHSbXKiQ5-9" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#232F3D;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.user;" parent="1" vertex="1">
+          <mxGeometry x="30" y="135" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="2zgin8cUrqoFHSbXKiQ5-18" value="trigger" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeWidth=3;" parent="1" source="2zgin8cUrqoFHSbXKiQ5-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="167" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zgin8cUrqoFHSbXKiQ5-10" value="S3" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" parent="1" vertex="1">
+          <mxGeometry x="260" y="120" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="2zgin8cUrqoFHSbXKiQ5-19" value="processa e grava item&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;strokeWidth=3;" parent="1" source="2zgin8cUrqoFHSbXKiQ5-13" target="2zgin8cUrqoFHSbXKiQ5-15" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2zgin8cUrqoFHSbXKiQ5-13" value="Lambda Function" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.lambda;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;strokeColor2=#292929;strokeColor3=#ffffff;" parent="1" vertex="1">
+          <mxGeometry x="530" y="120" width="85.07" height="101.25" as="geometry" />
+        </mxCell>
+        <mxCell id="2zgin8cUrqoFHSbXKiQ5-15" value="DynamoDB" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;strokeWidth=1;align=center;outlineConnect=0;dashed=0;outlineConnect=0;shape=mxgraph.aws3d.dynamoDb;fillColor=#ECECEC;strokeColor=#5E5E5E;aspect=fixed;strokeColor2=#292929;" parent="1" vertex="1">
+          <mxGeometry x="760" y="320" width="105.44" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="2zgin8cUrqoFHSbXKiQ5-16" value="upload de arquivo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.047;entryY=0.434;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;strokeWidth=3;" parent="1" source="2zgin8cUrqoFHSbXKiQ5-9" target="2zgin8cUrqoFHSbXKiQ5-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2zgin8cUrqoFHSbXKiQ5-20" value="upload de arquivo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.047;entryY=0.434;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;strokeWidth=3;" parent="1" source="2zgin8cUrqoFHSbXKiQ5-9" target="2zgin8cUrqoFHSbXKiQ5-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="78" y="160" as="sourcePoint" />
+            <mxPoint x="256" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="230" y="160" />
+              <mxPoint x="230" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
